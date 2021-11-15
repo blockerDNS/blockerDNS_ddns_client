@@ -1,0 +1,22 @@
+{
+    "name": "blockerdns_ddns_client",
+    "version": "1.0.0",
+    "description": "A barest of bare bones dynamic DNS client for reporting your IP address to blockerDNS",
+    "main": "blockerdns_ddns.ahk",
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tambeb/blockerDNS_ddns_client.git"
+    },
+    "keywords": [
+        "blockerDNS",
+        "dynamic",
+        "DNS"
+    ],
+    "author": "Tambe Barsbay",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/tambeb/blockerDNS_ddns_client/issues"
+    },
+    "homepage": "https://github.com/tambeb/blockerDNS_ddns_client#readme"
+}
