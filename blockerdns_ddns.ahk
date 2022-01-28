@@ -7,6 +7,8 @@ Menu, tray, Add
 Menu, tray, Add, Enable running at startup, enableHandler
 Menu, tray, Add, Disable running at startup, disableHandler
 
+OnError("errorHandler")
+
 name = blockerDNS-DDNS
 baseurl = dns.blockerdns.com
 
@@ -82,4 +84,8 @@ enableHandler() {
 disableHandler() {
     name = blockerDNS-DDNS
     RegDelete, HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,%name%
+}
+
+errorHandler(exception) {
+    return true
 }
